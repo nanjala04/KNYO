@@ -9,10 +9,12 @@
     messagingSenderId: "404544296823",
     appId: "1:404544296823:web:bd7dda1e9839679aa07372",
     measurementId: "G-PWZQFG8C9H"
-  };
-  // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
-  firebase.analytics();
+};
+
+// Initialize Firebase
+firebase.initializeApp(firebaseConfig);
+firebase.analytics();
+
 // Reference messages collection
 var messagesRef = firebase.database().ref('messages');
 
